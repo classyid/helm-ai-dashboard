@@ -20,10 +20,7 @@ HelmAI Dashboard adalah solusi manajemen toko helm komprehensif yang menggabungk
 - Google Apps Script
 - Google Spreadsheet
 - RESTful API
-- Node.js (Backend)
-- Express.js (API Server)
-- MongoDB/PostgreSQL (Database)
-- Dialogflow/GPT (untuk AI Assistant)
+- HelmAi (Backend)
 
 ## 📚 Arsitektur Sistem
 
@@ -50,10 +47,8 @@ HelmAI Dashboard adalah solusi manajemen toko helm komprehensif yang menggabungk
 ### Prasyarat
 
 - Akun Google Workspace atau Google personal
-- Akun GitHub
-- Server untuk hosting REST API (mis. Heroku, DigitalOcean, AWS)
-- Database (MongoDB Atlas, AWS RDS, dll)
-- Akun layanan AI (opsional: Dialogflow, OpenAI, dll)
+- Akun Apikey HelmAi
+
 
 ### Setup Google Apps Script
 
@@ -63,71 +58,6 @@ HelmAI Dashboard adalah solusi manajemen toko helm komprehensif yang menggabungk
 4. Simpan project dan berikan nama
 5. Deploy sebagai add-on dengan mengikuti petunjuk di [Google Apps Script Deployment Guide](https://developers.google.com/apps-script/concepts/deployments)
 
-### Setup REST API
-
-1. Clone repository ini
-```bash
-git clone https://github.com/yourusername/helm-ai-dashboard.git
-cd helm-ai-dashboard/api
-```
-
-2. Install dependensi
-```bash
-npm install
-```
-
-3. Setup variabel lingkungan
-```bash
-cp .env.example .env
-# Edit .env file dengan kredensial database dan konfigurasi Anda
-```
-
-4. Jalankan migrasi database
-```bash
-npm run migrate
-```
-
-5. Jalankan server untuk development
-```bash
-npm run dev
-```
-
-6. Deploy ke server produksi
-```bash
-# Ikuti panduan deployment platform pilihan Anda (Heroku, DigitalOcean, AWS, dll)
-```
-
-### Setup HelmAI Assistant
-
-1. Navigasikan ke folder assistant
-```bash
-cd ../assistant
-```
-
-2. Install dependensi
-```bash
-npm install
-```
-
-3. Setup konfigurasi AI
-```bash
-cp .env.example .env
-# Edit .env file dengan kredensial AI service Anda
-```
-
-4. Jalankan assistant untuk development
-```bash
-npm run dev
-```
-
-5. Deploy ke server produksi
-```bash
-# Ikuti panduan deployment platform pilihan Anda
-```
-
-## 📖 Dokumentasi
-
-Dokumentasi lengkap tersedia di folder `docs` atau [website dokumentasi](https://example.com/docs).
 
 ### API Endpoints
 
@@ -158,4 +88,4 @@ Proyek ini dilisensikan di bawah [MIT License](LICENSE).
 
 ## 📞 Kontak
 
-Untuk pertanyaan dan dukungan, silakan hubungi kami di [support@example.com](mailto:support@example.com) atau buka issue di repository GitHub.
+Untuk pertanyaan dan dukungan, silakan hubungi kami di [support@example.com](mailto:kontak@classy.id) atau buka issue di repository GitHub.
